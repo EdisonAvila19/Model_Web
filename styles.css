@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+}
+
+
+/*---CABECERA FIJA-----*/
+        #networks a{
+            display: inline-flex;
+            /*border: 1px solid green;*/
+            align-items: center;
+            justify-content: center;
+            width: 33%;
+        }
+    
+    #networks{
+        /*background-color: aqua;*/
+        width: 20%;
+        height: 100%;
+        display: inline-flex;
+    }
+    /*---------------Botones*/    
+        #botons div{
+            display: inline-flex;
+            /*border: 1px solid green;*/
+            width: 20%;
+            align-items: center;
+            justify-content: center;
+        }
+    #botons{
+        /*background-color: rgb(0, 140, 255);*/
+        width: 60%;
+        height: 100%;
+        display: inline-flex;
+    };
+    /*-----------------Horario*/
+    
+        #horario img{
+            width: 20px;
+        }
+        
+        #horary div{
+            /*border: 1px solid rgb(128, 0, 6);*/
+            font-size: 8px;
+            width: 80%;
+            margin-left: 20px;
+            padding: 0px 0px 0px 0px;
+            text-align: left;
+        }
+    #horary{
+        /*background-color: rgb(0, 17, 255);*/
+        width: 20%;
+        display: inline-flex;
+    }
+        
+
+    /*Opciones del baner en general*/    
+.Banner{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: fixed;
+    margin: 0;
+    overflow: hidden;
+}
+#Division{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+/*dddddddddddddddddddddd*/
+
+Header p{
+    
+    margin-top: 0px;
+    background-color: rgb(139, 213, 226);
+    width: 100%;
+    height: 800px;
+}
