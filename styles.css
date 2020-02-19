@@ -29,23 +29,26 @@ body{
     }
     
     /*---------------Botones*/    
-        #botons div{
-           /*border: 1px solid green;*/
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;            
-            width: 130px;
-            min-width: 130px;
-            transform: translate(0%,125%);    
-        }
+        
     #botons{
         /*background-color: rgb(0, 140, 255);*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 70%;
-        height: 100%;
-        text-align: center;
-        
-        
+        flex-wrap: wrap;
     }
+
+        #botons div{
+            /*background-color: aqua; */
+            display: flex;
+            justify-content: center;
+            width: 130px;
+            min-width: 130px;
+            
+        }
+
+
     /*-----------------Horario*/
         #horary div{
             /*border: 1px solid rgb(128, 0, 6);*/
