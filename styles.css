@@ -96,12 +96,40 @@ body{
     background-color: black;
 }
 
-/*dddddddddddddddddddddd*/
+/*IMAGEN DE LA EMPRESA Y ESLOGAN*/
 
-Header p{
+Header {
     
     margin-top: 0px;
     background-color: #2e6589;
+    
     width: 100%;
-    height: 800px;
+    overflow: hidden;
+}
+
+#imagenHeader {
+    width: 100%;
+    height: auto;
+    /*background-color: rgb(206, 255, 127);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.texto-encima{
+    /*background-color: black;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+#imagenHeader img{
+    padding-top: 10px;
+    width: 65%;
+    height: auto;
+    /*background-color: rgb(161, 127, 255);*/
 }
