@@ -127,9 +127,15 @@ h1.texto-encima{
     padding-top: 0px;
 }
 
-#imagenHeader img{
+#imagenHeader div{
     padding-top: 10px;
-    width: 65%;
+    width: 350px;
     height: auto;
+    /*background-color: rgb(161, 127, 255);*/
+}
+#imagenHeader div img{
+    padding-top: 10px;
+    width: 100%;
+    
     /*background-color: rgb(161, 127, 255);*/
 }
